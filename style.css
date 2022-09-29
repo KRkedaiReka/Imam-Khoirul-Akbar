@@ -1,0 +1,40 @@
+body {
+  background-color: #ffffff;
+}
+
+.judul {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index: 99999;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.bck {
+  background-color: #111;
+}
+
+ul {
+  text-align: center;
+  margin: auto;
+  gravity: center;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
