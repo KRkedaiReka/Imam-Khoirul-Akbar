@@ -4,8 +4,13 @@ header {
 
 .navi {
   text-align: center;
-  background-color: #C2DFFF;
+  background-color: #123456;
+  position: absolute;
+  width: 100%;
+  opacity: 85%;
+  font-display:;
 }
+
 .header-img {
   width: 100%;
   height: auto;
@@ -14,7 +19,7 @@ header {
 }
 
 .dropbtn {
-  background-color: #C2DFFF;
+  background-color: #123456;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -29,7 +34,6 @@ header {
 }
 
 .ing {
-  margin-top: -50px;
   width: 100%;
 }
 
@@ -107,22 +111,14 @@ header {
   }
 }
 
-li {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  font-size: 12px;
+  width: 12px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -160,4 +156,75 @@ li {
   background: #ff5700;
   color: white;
 }
+.share {
+  font-size:12px;
+}
+
+.paragraf {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+footer {
+  background-color: #123456;
+  color: white;
+  padding: 60px;
+}
+
+#mySidenav a {
+  position: fixed;
+  left: 0px;
+  transition: 0.3s;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  top: 20px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  top: 80px;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  top: 140px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  top: 200px;
+}
+/* The about link: 20px from the top with a green background */
+#la-facebook {
+  background: #3B5998;
+  color: white;
+  size: 10px;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #555 /* Light Black */
 }
